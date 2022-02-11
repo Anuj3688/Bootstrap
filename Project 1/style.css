@@ -1,0 +1,44 @@
+.navbar{
+
+    background: rgb(58, 134, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(58, 134, 255, 1) 1%,
+    rgba(246, 0, 192, 1) 100%
+  );
+}
+
+.color{
+    color: white;
+}
+
+#img1 , #img2 , #img3{
+  height: 600px;
+}
+
+.cards{
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.cardimg{
+  width: 286px;
+  height: 200px;
+}
+
+.carimg:hover{
+  box-shadow: 3px 3px 15px lightgray;
+}
+
+.fomr{
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 20px auto;
+  width: 400px;
+}
+
+.fomr:hover{
+  box-shadow: 3px 3px 15px lightgray;
+}
